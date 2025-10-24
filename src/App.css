@@ -1,0 +1,47 @@
+button
+{
+  background-color: #4285F4;
+  border: 2px grey solid;
+  padding: 16px 16px;
+  height: 75px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: inherit;
+  cursor: pointer;
+  margin-left: 10px;
+}
+button:hover
+{
+  border-color: grey;
+}
+
+#search
+{
+  padding-left: 10px;
+  height: 75px;
+  width: 600px;
+  font-size: 45px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 40px;
+  border-color: black;
+}
+
+#result
+{
+  padding-left: 75px;
+  padding-bottom: 25px;
+}
+
+img
+{
+  max-width: 175px;
+  max-height: 175px;
+  border: 2px solid grey;
+  vertical-align: middle;
+}
+#name
+{
+  margin-left: 50px;
+  font-size: 30px;
+}
