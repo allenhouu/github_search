@@ -21,7 +21,7 @@ function App() {
     return<>
         <input id="search" placeholder="Type here to search"/>
         <button onClick={() => {
-            let name = document.getElementById('search').value;
+            const name = (document.getElementById('search') as HTMLInputElement).value;
             setUsername(name);
         }
         }>Search</button>
